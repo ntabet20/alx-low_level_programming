@@ -3,7 +3,7 @@
 /**
  * main - Program starts executing here
  *
- * return: Always gives 0
+ * Return: Always gives 0
  */
 int main(void)
 {
