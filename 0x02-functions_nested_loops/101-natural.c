@@ -14,6 +14,6 @@ int main(void)
 		if ((n % 3) == 0 || (n % 5) == 0)
 			sum += n;
 	}
-	printf("sum of multiples of 3 and 5 less than 1024 is: %d\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
