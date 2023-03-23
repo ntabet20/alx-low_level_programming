@@ -14,7 +14,7 @@ int main(void)
 	for (i = 1 ; i <= 96 ; i++)
 	{
 		fib = x + y;
-		printf("%ld", fib);
+		printf("%lu", (unsigned long)fib);
 		x = y;
 		y = fib;
 		if (i == 96)
