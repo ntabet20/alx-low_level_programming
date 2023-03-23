@@ -7,13 +7,14 @@
  */
 int main(void)
 {
-	int n1 = 1, n2 = 2, i, fib;
+	long int n1 = 1, n2 = 2, fib;
+	int i;
 
-	printf("%d, %d, ", n1, n2);
+	printf("%ld, %ld, ", n1, n2);
 	while (i <= 50)
 	{
 		fib = n1 + n2;
-		printf("%d", fib);
+		printf("%ld", fib);
 		n1 = n2;
 		n2 = fib;
 		if (i == 50)
