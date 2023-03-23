@@ -7,9 +7,11 @@
  */
 int main(void)
 {
-	int i, fib, a = 1, b = 2, sum = 0;
+	int i, fib, a = 1, b = 2, sum;
 
 
+	if (b % 2 == 0)
+		sum = b;
 	for (i = 0 ; i < 30 ; i++)
 	{
 		fib = a + b;
