@@ -11,7 +11,7 @@ int main(void)
 	int i;
 
 	printf("%ld, %ld, ", n1, n2);
-	while (i <= 50)
+	while (i <= 52)
 	{
 		fib = n1 + n2;
 		printf("%ld", fib);
