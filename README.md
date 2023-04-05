@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## C-Hello, World
 ## General
 * Why C programming is awesome
